@@ -1,7 +1,7 @@
 # Five-solutions
 The five distinct codes for one question
 
-The first question is to print out the below pattern of stars in five distinct ways using python.
+The first question is to print out the below __*pattern of stars*__ in five distinct ways using python.
 
 \*  
 \**  
@@ -11,4 +11,4 @@ The first question is to print out the below pattern of stars in five distinct w
 \******  
 
 
-The second file is the solution to find at least five ways of printing numbers from 1 to 100 considering three rules. First, the multiples of three should be replaced by the word "Fizz", then the multiples of five are displaced by "Buzz", while the multiples of both should be exchanged by the "FizzBuzz".
+The second file is the solution to find at least five ways of __*printing numbers from 1 to 100*__ considering three rules. First, the multiples of three should be replaced by the word "Fizz", then the multiples of five are displaced by "Buzz", while the multiples of both should be exchanged by the __*"FizzBuzz"*__.
