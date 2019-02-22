@@ -1,0 +1,14 @@
+
+
+
+
+# Solution 5
+i=0
+while(i<5):
+    j=0
+    while(j<=i):
+        print("*",end="") #end="" is given to stay on same line
+        j=j+1
+    print("")  #it will take u to the new line
+    i=i+1
+    j=0
