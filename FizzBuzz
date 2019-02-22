@@ -45,3 +45,22 @@ for i in range(0,101,15):
     list[i]="FizzBuzz"  
 print(list)
 
+
+
+
+
+# Solution number 4
+list = [i for i in range(101)]
+i=100
+while i!=0:
+    multiple5x3  = not(list[i] % 15)
+    multiple5 = not(list[i] % 5)
+    multiple3 = not(list[i] % 3)
+    if multiple5x3:
+        list[i]="FizzBuzz"
+    elif multiple5:
+        list[i]="Buzz"
+    elif multiple3:
+        list[i]="Fizz"
+    i-=1
+print(list)
