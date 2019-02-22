@@ -1,1 +1,28 @@
+for i in range(101):
+    if (i%5==0) and (i%3==0):
+        print("FizzBuzz")
+    elif i%5==0 :
+        print("Buzz")
+    elif i%3==0:
+        print("Fizz")
+    else:
+        print(i)
+
+
+
+list = [i for i in range(101)]
+i=100
+while i!=0:
+    five = list[i] % 5
+    three = list[i] % 3
+    if five==0 and three==0:
+        list[i]="FizzBuzz"
+    elif five==0:
+        list[i]="Buzz"
+    elif three==0:
+        list[i]="Fizz"
+    i-=1
+
+print(list)
+
 
