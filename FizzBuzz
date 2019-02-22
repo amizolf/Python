@@ -86,3 +86,33 @@ for i in range(101):
         x=i
     list.append(x)
 list
+
+
+
+
+
+# Solution number 6
+i=2
+x=0
+three=1
+five=1
+fifteen=1
+list.append(0)
+while i<=100:
+    three+=1
+    five+=1
+    fifteen+=1
+    if fifteen==15:
+        x="FizzBuzz"
+        fifteen=0
+    elif five==5:
+        x="Buzz"
+        five=0
+    elif three==3:
+        x="Fizz"
+        three=0
+    else:
+        x=i
+    list.append(x)
+    i+=1
+list
