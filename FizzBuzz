@@ -2,6 +2,8 @@
 # First, the multiples of three should be replaced by the word "Fizz", 
 # then the multiples of five are displaced by "Buzz", 
 # while the multiples of both should be exchanged by the "FizzBuzz".
+# Writed by Amir Hossein Zolfaghari on Feb 2019 in respect to Dansk Scanning company.
+
 
 
 # Solution number 1
