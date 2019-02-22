@@ -64,3 +64,20 @@ while i!=0:
         list[i]="Fizz"
     i-=1
 print(list)
+
+
+
+
+
+# Solution number 5
+for i in range(101):
+    if not(i%15):
+        x="FizzBuzz"
+    elif not(i%5):
+        x="Buzz"
+    elif not(i%3):
+        x="Fizz"
+    else:
+        x=i
+    list.append(x)
+list
