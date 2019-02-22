@@ -1,4 +1,7 @@
-# The current solution is to satisfy ways of printing numbers from 1 to 100 considering three rules. First, the multiples of three should be replaced by the word "Fizz", then the multiples of five are displaced by "Buzz", while the multiples of both should be exchanged by the "FizzBuzz".
+# The current solution is to satisfy ways of printing numbers from 1 to 100 considering three rules.
+# First, the multiples of three should be replaced by the word "Fizz", 
+# then the multiples of five are displaced by "Buzz", 
+# while the multiples of both should be exchanged by the "FizzBuzz".
 
 
 # Solution number 1
