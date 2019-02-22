@@ -29,7 +29,19 @@ while i!=0:
     elif three==0:
         list[i]="Fizz"
     i-=1
-
 print(list)
 
+
+
+
+
+# Solution number 3
+list = [i for i in range(101)]
+for i in range(0,101,3):
+    list[i]="Fizz"
+for i in range(0,101,5):
+    list[i]="Buzz"
+for i in range(0,101,15):
+    list[i]="FizzBuzz"  
+print(list)
 
