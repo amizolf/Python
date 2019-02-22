@@ -1,5 +1,5 @@
 # Five-solutions
-The five distinct codes for one question
+The five distinct codes for one question.
 
 The first question is to print out the below __*pattern of stars*__ in five distinct ways using python.
 
