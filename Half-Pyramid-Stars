@@ -68,3 +68,17 @@ while(i<5):
     i=i+1
     j=0
 
+
+
+
+
+# Solution number 8 ::: The recursive way
+def printStarPattern(row):
+    if row>0:
+        printStarPattern(row-1)
+        print("* " * row)        
+printStarPattern(5)
+
+
+
+
