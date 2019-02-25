@@ -7,7 +7,7 @@ rows = int (rows)
 # Solution number 1
 for i in range (0, rows):
     for j in range(0, i + 1):
-        print("*", end=' ')
+        print("* ", end=' ')
     print("\r")
 
 
@@ -18,7 +18,7 @@ for i in range (0, rows):
 start=0
 while(start!=rows):
     for i in range(start+1):
-        print("*", end=' ')
+        print("* ", end=' ')
     print("\r")
     start+=1
 
@@ -28,7 +28,7 @@ while(start!=rows):
 
 # Solution number 3
 for i in range(rows):
-    print('*' * (i+1))
+    print("* " * (i+1))
 
 
 
@@ -36,14 +36,14 @@ for i in range(rows):
 
 # Solution number 4
 for i in range (rows,0,-1):
-    print((rows-i) * '*')
+    print((rows-i) * "* ")
 
 
 
 
 
 # Solution number 5
-print('\n'.join(['*'*i for i in range(1,row+1)]))
+print('\n'.join(['* '*i for i in range(1,row+1)]))
 
 
 
@@ -51,7 +51,7 @@ print('\n'.join(['*'*i for i in range(1,row+1)]))
 
 # Solution number 6
 for i in range(0,rows):
-    print ("*" * i )
+    print ("* " * i )
     
     
 
@@ -62,7 +62,7 @@ i=0
 while(i<5):
     j=0
     while(j<=i):
-        print("*",end="") #end="" is given to stay on same line
+        print("* ",end="") #end="" is given to stay on same line
         j=j+1
     print("")  #it will take u to the new line
     i=i+1
