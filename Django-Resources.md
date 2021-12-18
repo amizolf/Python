@@ -7,4 +7,5 @@
 
 ### Django Books:
 Django for Beginners - Build websites with Python & Django - By William S. Vincent
+
 Django for Professionals: Production websites with Python & Django - By William S. Vincent
